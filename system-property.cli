@@ -1,0 +1,7 @@
+batch
+
+history --disable
+
+/system-property=myproperty:add(value=${secret.password})
+
+run-batch
